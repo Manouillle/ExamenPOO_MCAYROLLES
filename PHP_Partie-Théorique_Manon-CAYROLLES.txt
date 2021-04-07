@@ -1,0 +1,41 @@
+
+				********* EXAMEN PHP ********* 
+
+
+
+3) Je suis une méthode magique appelé implicitement à la fin d’un script PHP. Qui suis-je ?
+	Je suis la méthode magique appellée: descruct();
+
+
+5) Donnez 3 types de visibilité sur un attribut expliquez la différence.
+	Private: Le mot-clé private permet de déclarer des attributs et des méthodes qui ne seront 
+		visibles et accessibles directement que depuis l'intérieur même de la classe.
+
+	Public: Le mot-clé public indique que les propriétés et méthodes d'un objet seront accessibles
+		depuis n'importe où dans le programme principal ou bien dans les classes mères héritées
+		ou classes filles dérivées.
+
+	Protected: L'accès protégé ( protected ) est un intermédiaire entre l'accès publique et l'accès 
+		privé. Il permet d'utiliser des attributs et méthodes communs dans une classe parente et 
+		ses classes dérivées (héritantes).
+
+
+8) Expliquez les avantages de l’utilisation d’un pattern MVC.
+	Les avantages de l'utilisation d'un pattern MVC sont:
+		* Permet de mieux séparer les rôles et le code
+		* Temps de maintenance amélioré
+		* Favorise le développement collaboratif
+		* Plus flexible
+
+
+9) Détaillez les éléments qui composent un pattern MVC.
+	Le pattern MVC signifie "Model - View - Controller":
+		Model: Il représente les données depuis une source de donnés.
+		View: Il représente l'interface utilisateur (HTML,...) et est géré par le Controller.
+		Controller: Il traite les évènements (requêtes,...), il peut modifier les données du
+			    model et répond par une View.
+
+
+
+
+
